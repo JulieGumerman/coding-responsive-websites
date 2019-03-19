@@ -54,6 +54,8 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 header h1 {
