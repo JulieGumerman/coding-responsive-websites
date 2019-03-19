@@ -11,7 +11,8 @@ body {
 }
 
 .container{
-	max-width: 1200px;
+	/*max-width: 1200px;*/
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -42,13 +43,13 @@ h4 {
 p {
 	font-size: 14px;
 	line-height: 21px;
-    padding: 0 30px;
+    /*padding: 0 30px; */
 }
 
 /*The widths are in a percentage!*/
 header {
 	width: 100%;
-	height: 110px;
+	/*height: 110px; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -57,8 +58,12 @@ header {
 
 header h1 {
 	/*float: left;*/
-	margin: 0;
-	padding: 38px 0;
+	text-align: center;
+	width: 100%;
+	/*padding: 38px 0px;*/
+	/*border-bottom: 3px solid #77a466;*/
+	padding: 30px;
+
 }
 header h1 span {
 	color: #77a466;
@@ -66,17 +71,22 @@ header h1 span {
 
 header nav {
 	/*float: right;*/
-	padding: 46px 0;
+	/*padding: 46px 0;*/
+	width: 100%;
+	text-align: center;
+	border-top: 3px solid #77a466;
+
 }
 header nav ul {
-	margin: 0;
+	/*margin: 0;*/
 	padding: 0;
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
-	padding: 0 10px;
+	/*padding: 0 10px;*/
+	line-height: 55px;
 	/*display: inline; */
 }
 header nav ul li a{
@@ -89,15 +99,15 @@ header nav ul li a{
 .bottom-section {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; 
 	clear: both;
 	flex-flow: row wrap;
-}
-
-.top-section {
 	padding-left: 30px;
 	padding-right: 30px;
 }
+
+
+
 
 .main-image {
 	height: auto;
@@ -129,10 +139,10 @@ header nav ul li a{
 .section-three {
 	/*width: 33%; tablet or desktop*/
 	height: auto;
-	float: left;
+	/* float: left;*/
 	border-top: 1px solid #eee;
 	width: 100%;
-	padding: 10px 30px
+	/*padding: 10px 30px */
 }
 
 /* tablet or desktop.section-one h4 {
@@ -140,8 +150,8 @@ header nav ul li a{
 } */
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	/*border-left: 1px solid #eee;
+	border-right: 1px solid #eee; */
 }
 
 /*.section-two h4,
@@ -154,7 +164,7 @@ header nav ul li a{
 	padding: 0;
 }
 .menu li {
-	padding: 10px 0; 
+	/*padding: 10px 0; */
 	color:#77a466;
 }
 
